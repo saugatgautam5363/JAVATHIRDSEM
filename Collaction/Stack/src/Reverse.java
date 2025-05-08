@@ -7,7 +7,6 @@ public class Reverse {
     public static void main(String[] args) {
         Stack<String> stack = new Stack<>();
         stack.add("hello");
-
         Collections.reverse(stack);
         System.out.println("Reverse: "+stack);
     }
