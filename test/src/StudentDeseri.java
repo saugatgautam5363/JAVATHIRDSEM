@@ -13,6 +13,7 @@ public class StudentDeseri {
             System.out.println("Name: "+s1.name);
             System.out.println("Roll: "+s1.roll);
             System.out.println("Subject: "+s1.subject);
+
             obj.close();;
             file.close();
         } catch (Exception e) {
