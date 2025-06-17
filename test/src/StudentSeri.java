@@ -17,5 +17,6 @@ public class StudentSeri {
         } catch ( Exception e) {
             throw new RuntimeException(e);
         }
+
     }
 }
