@@ -9,5 +9,6 @@ public class STudent implements Serializable {
         this.name = name;
         this.roll = roll;
         this.subject = subject;
+
     }
 }
