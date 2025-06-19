@@ -3,7 +3,7 @@ import java.io.IOException;
 
 public class CreateNewFile {
     public static void main(String[] args) {
-        File newFile = new File("File.txt");
+        File newFile = new File("student.ser");
         try{
                 newFile.createNewFile();
             } catch (IOException e) {
