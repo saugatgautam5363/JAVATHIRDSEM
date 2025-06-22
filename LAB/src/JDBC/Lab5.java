@@ -10,6 +10,7 @@ public class Lab5 {
 
         String query = "SELECT name FROM students";
 
+
         try (
                 Connection conn = DriverManager.getConnection(url, user, password);
                 Statement stmt = conn.createStatement();
