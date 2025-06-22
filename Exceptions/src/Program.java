@@ -13,6 +13,7 @@ public class Program {
             System.out.println("Enter the divide Number: ");
             int numbr1 = scanner.nextInt();
 
+
             int result = number / numbr1;
             System.out.println("Result: " + result);
         }catch (ArithmeticException e){
