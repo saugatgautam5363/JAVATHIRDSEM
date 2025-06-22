@@ -8,6 +8,7 @@ public class AgeValidation {
             System.out.println("Enter the age: ");
             int age = scanner.nextInt();
 
+
             if(age < 0 || age<18){
                 throw new InvalidException("Invalid age");
             }
