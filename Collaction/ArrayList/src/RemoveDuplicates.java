@@ -13,6 +13,7 @@ public class RemoveDuplicates {
        LinkedHashSet<Integer> set = new LinkedHashSet<>(number);
 
 
+
        ArrayList<Integer> numbers = new ArrayList<>(set);
         System.out.println("Original numbers: "+number);
         System.out.println("Remove numbers: "+numbers);
