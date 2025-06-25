@@ -5,6 +5,7 @@ public class InheritanceTest {
         System.out.println("---------------");
 
         Manager manager = new Manager("saugat","AF1",10000000,"IT");
+
         manager.display();
         manager.manageTeam();
 
