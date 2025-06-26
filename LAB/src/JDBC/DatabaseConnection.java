@@ -17,6 +17,7 @@ public class DatabaseConnection {
             // Establish connection
             Connection conn = DriverManager.getConnection(url, username, password);
 
+
             System.out.println("Connected successfully");
 
             // Close connection
