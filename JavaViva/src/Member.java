@@ -8,6 +8,7 @@ public class Member {
     }
 
 
+
     public void displayInfo() {
         System.out.println("Member Name: " + name);
         System.out.println("Member ID: " + memberId);
