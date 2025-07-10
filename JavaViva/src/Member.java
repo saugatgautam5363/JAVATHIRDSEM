@@ -6,9 +6,6 @@ public class Member {
         this.name = name;
         this.memberId = memberId;
     }
-
-
-
     public void displayInfo() {
         System.out.println("Member Name: " + name);
         System.out.println("Member ID: " + memberId);
